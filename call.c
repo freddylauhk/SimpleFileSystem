@@ -501,15 +501,6 @@ int write_t(int inode_number, int offest, void *buf, int count)
 	close(fd);
 	return write_bytes;
 }
-/*
-int main(){
-	int file2 = open_t("/root/test1",0);
-	printf("%d\n",file2);
-	char *temp = "I love comp3438 A1";
-	printf("%d\n",sizeof(temp));
-	write_t(file2, 0, temp, sizeof(temp));
-	
-}
-*/
+
 
 
